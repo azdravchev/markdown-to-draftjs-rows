@@ -16,7 +16,7 @@ app.post("/convert", async (req, res) => {
         console.log(rawObject);
         return res.status(200).send(rawObject)
     }
-    res.setH.status(400).send("not valid")
+    res.status(400).send("not valid")
 });
 
 app.get("/", function(req, res) {
